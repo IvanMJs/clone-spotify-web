@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+.shuffle,
+.repeat {
+  color: #1db954;
+  transition: transform 200ms ease-in-out !important;
+}
+.icon {
+  transition: transform 200ms ease-in-out !important;
+}
+.shuffle:hover,
+.repeat:hover,
+.icon:hover {
+  transform: scale(1.2) !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.playButton {
+  margin: 20px 0 20px 5px;
+  transition: transform 200ms ease-in-out !important;
+  color: #1db954;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.playButton:hover {
+  transform: scale(1.1) !important;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.favoriteIcon {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  transition: transform 200ms ease-in-out !important;
+  color: #1db954;
 }
 
-.App-link {
-  color: #61dafb;
+.favoriteIcon:hover {
+  transform: scale(1.1) !important;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.moreHorizonIcon {
+  display: flex;
+  transition: transform 200ms ease-in-out !important;
+  color: rgb(153, 153, 153);
+}
+
+.moreHorizonIcon:hover {
+  transform: scale(1.1) !important;
+  cursor: pointer;
+}
+
+.ipwaUA .MuiSlider-root {
+  color: #1db954 !important;
 }
