@@ -25,7 +25,7 @@ export const Footer = (props) => {
           alt="cover"
         />
         <div>
-          <h4></h4>
+          <h4>{props.dataSong?.name}</h4>
           <p></p>
         </div>
       </FooterLeft>
