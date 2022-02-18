@@ -19,7 +19,7 @@ const scopes = [
   "user-top-read",
   "user-modify-playback-state",
 ];
-const redirectUri = "https://clone-spotify-web-4wbcvn9n9-ivanjs.vercel.app/callback/";
+const redirectUri = "https://clone-spotify-web.vercel.app/callback/";
 export const loginURL = `${endpoint}?client_id=${clientID}&response_type=token&redirect_uri=${redirectUri}&scope=${scopes.join(
   "%20"
 )}&show_dialog=true`;
