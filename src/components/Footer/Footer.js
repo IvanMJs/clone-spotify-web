@@ -16,14 +16,10 @@ import {
 } from "./styles";
 
 export const Footer = (props) => {
-  //console.log(props.dataSong?.name);
   return (
     <FooterContainer>
       <FooterLeft>
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaxr7PXW9ui3XyieHCHHirBx5WOSXTJcsxfA&usqp=CAU"
-          alt="cover"
-        />
+        <img src={props.dataSong?.album?.images[0]?.url} alt="cover" />
         <div>
           <h4>{props.dataSong?.name}</h4>
           <p></p>
